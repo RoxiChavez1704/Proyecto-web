@@ -1,0 +1,669 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    background-color: #f7eedf;
+}
+
+header {
+    padding: 20px 2%;
+    background-color: #f7eedf;
+}
+
+main {
+    background-color: #f7eedf;
+    opacity: 0;
+    animation: aparecer 3s ease-out forwards;
+}
+
+@keyframes aparecer {
+    to {
+        opacity: 1;
+    }
+}
+
+/* top header*/
+.top-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: auto;
+    padding: 6% 20px;
+}
+
+.menu_option {
+    font-family: "amaranth", sans-serif;
+    font-size: 2.5rem;
+}
+
+.top_logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top_logo img {
+    height: 200px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.top_icon {
+    display: flex;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 10px auto;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 55px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #833f26;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: #c15e3f;
+}
+
+/*Banner*/
+
+#banner {
+    background-color: #f7eedf;
+    text-align: center;
+}
+
+.txt_banner {
+    text-align: center;
+    padding: 5% 10%;
+    background-color: #f7eedf;
+    color: #833f26;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subtitulos {
+    margin-top: 1rem;
+    text-align: center;
+    font-family: "amaranth", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #b2542a;
+}
+
+.parrafo_banner {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: #6a2e1a;
+}
+
+.banner img {
+    display: block;
+
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 75%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.header_left {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #833f26;
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: #833f26;
+}
+
+/*productoDestacados*/
+#productoDestacados {
+    background-color: #f7eedf;
+}
+
+.producto_destacado {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin: 25px 50px 25px 50px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #fdfdfd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+.producto_destacado:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.img_destacado img {
+    width: 350px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.contenido {
+    flex: 1;
+}
+
+.text_destacado {
+    font-family: "Amaranth", sans-serif;
+    font-size: 2.5rem;
+    color: #b2542a;
+    margin-bottom: 1rem;
+}
+
+.txt_infodestacado {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: #6a2e1a;
+    margin-bottom: 2rem;
+}
+
+.boton_destacado {
+    padding: 10px 25px;
+    background-color: #b2542a;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.boton_destacado:hover {
+    background-color: #a0441e; /* un tono más intenso */
+}
+#un_poco_de_nosotros {
+    padding: 60px 5%;
+    background-color: #f7eedf;
+}
+
+.poco_nosotros {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.poco_nosotros > div:first-child {
+    flex: 1;
+    text-align: left;
+}
+
+.poco_nosotros .subtitulos {
+    font-size: 4rem;
+    color: #833f26;
+    margin-bottom: 1rem;
+    font-family: "Amaranth", sans-serif;
+}
+
+.poco_nosotros .txt_pcinfo {
+    font-size: 1.5rem;
+    color: #5e2e1f;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.poco_nosotros .boton_destacado {
+    background-color: #833f26;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.poco_nosotros .boton_destacado:hover {
+    background-color: #a14d2c;
+}
+
+.img_nosotros {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.img_nosotros img {
+    max-width: 100%;
+    width: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* footer*/
+footer {
+    background-color: #f7eedf;
+    color: #833f26;
+    padding: 40px 5%;
+    font-family: "Amaranth", sans-serif;
+}
+
+.footer_box {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer_box > div {
+    max-width: 300px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer_title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #833f26;
+    text-transform: uppercase;
+}
+
+.footer_txt,
+.footer_txt:visited {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    display: block;
+    color: #833f26;
+    text-decoration: none;
+}
+
+.footer_txt:hover {
+    color: #b2542a;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input[type="email"] {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 180px;
+}
+
+button[type="submit"] {
+    background-color: #b2542a;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #a04621;
+}
+
+.icon_redes {
+    margin: 10px 5px 0;
+    display: inline-block;
+}
+
+.footer_left {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: #833f26;
+}
+
+/* Estilo general para el formulario */
+.contacto-container {
+    padding: 30px 10%;
+    background-color: #f9f3f0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el encabezado de la sección */
+.contactanos_form h3 {
+    font-size: 2rem;
+    color: #e37c5c; /* Color de la paleta */
+    margin-bottom: 20px;
+}
+
+/* Estilo para los párrafos de la sección */
+.contactanos_form p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Estilos para los inputs y textarea */
+form input,
+form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    border: 1px solid #e37c5c; /* Borde de color principal */
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+/* Estilos para el texto dentro de los inputs */
+form input::placeholder,
+form textarea::placeholder {
+    color: #aaa;
+}
+
+/* Estilo para el textarea (más alto) */
+form textarea {
+    height: 150px;
+    resize: none; /* Desactiva el redimensionado manual del textarea */
+}
+
+/* Estilo para el botón de envío */
+form input[type="submit"] {
+    background-color: #e37c5c; /* Color de fondo */
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover en el botón de envío */
+form input[type="submit"]:hover {
+    background-color: #f49980; /* Color al pasar el cursor */
+}
+
+/* Estilo para cuando el formulario está en foco (inputs, textarea) */
+form input:focus,
+form textarea:focus {
+    border-color: #f49980; /* Resalta el borde cuando el campo está activo */
+    outline: none; /* Quita el borde por defecto */
+}
+
+/* Espaciado y alineación en el formulario */
+form .input_field,
+form .textarea_field {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Contenedor del Blog */
+#Blog {
+    padding: 50px 10%;
+    background-color: #f9f3f0;
+    text-align: center;
+}
+
+/* Artículos dentro del contenedor de blog */
+#Blog article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.postres_peru:hover {
+    transform: scale(1.01);
+    transition: 0.5s;
+}
+
+/* Imagen del blog */
+#Blog .img_blog {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#Blog .img_blog img {
+    width: 100%;
+    border-radius: 8px;
+    max-width: 300px;
+    height: auto;
+}
+
+/* Texto del blog */
+#Blog .blog_txt {
+    flex: 2;
+    text-align: left;
+}
+
+/* Títulos de los blogs */
+#Blog h3 {
+    font-size: 2rem;
+    color: #e37c5c;
+    margin-bottom: 10px;
+}
+
+/* Subtítulos dentro del blog */
+#Blog h4 {
+    font-size: 1.2rem;
+    color: #e37c5c;
+    margin-bottom: 8px;
+}
+
+/* Párrafos dentro del blog */
+#Blog p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Listas de ingredientes */
+#Blog ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Listas de preparación */
+#Blog ol {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para cada ítem de la lista */
+#Blog li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+/* Espaciado entre los artículos */
+#Blog article:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+/*catalogo */
+.catalogo_txt {
+    text-align: center;
+    display: block;
+    padding: 15px 0 25px 0;
+    color: #8c6229;
+    font-size: 2rem;
+}
+
+img {
+    max-width: 100%;
+}
+#catalogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.container-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.item {
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.item:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.item figure {
+    overflow: hidden;
+}
+.info-producto {
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #833f26;
+    font-size: 20px;
+}
+
+.precio {
+    font-size: 18px;
+    font-weight: 900;
+}
+.info-producto button {
+    border: none;
+    background: none;
+    background-color: #833f26;
+    color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.title_productos {
+    padding: 35px 0 0 0;
+    text-align: center;
+    font-size: 5rem;
+}
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 768px) {
+    .top-header {
+        padding: 20px 10px;
+    }
+    .top_logo {
+        left: 25%;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .producto_destacado {
+        flex-direction: column;
+        padding: 30px 10px;
+    }
+
+    .poco_nosotros {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img_nosotros {
+        justify-content: center;
+    }
+
+    #Blog article {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #Blog .img_blog {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .container-item {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .item img {
+        height: 200px;
+    }
+
+    .top_logo img {
+        height: 120px;
+    }
+
+    .menu_option {
+        font-size: 1.8rem;
+    }
+
+    .text_destacado {
+        font-size: 2rem;
+    }
+
+    .subtitulos {
+        font-size: 1.8rem;
+    }
+
+    .text_tamaño {
+        font-size: 1.3rem;
+    }
+}
