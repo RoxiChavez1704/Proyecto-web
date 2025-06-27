@@ -7,6 +7,7 @@ const productosDestacados = [
         Nuestro alfajor artesanal es el bocado perfecto que combina tradición, cariño casero y ese toque especial que derrite corazones. 
         Ideal para consentirte o compartir un dulce momento uwu.`,
         link: "#",
+        precio: "12.50",
     },
     {
         id: "Turron",
@@ -15,6 +16,7 @@ const productosDestacados = [
         descripcion: `Un turrón irresistible que combina lo mejor de la tradición con un toque único de sabor. 
         Perfecto para quienes buscan un dulce que transforme cada momento en un destino lleno de placer y felicidad.`,
         link: "#",
+        precio: "12.50",
     },
     {
         id: "Mousse",
@@ -23,6 +25,7 @@ const productosDestacados = [
         descripcion: `Cremoso Mousse de Lúcuma que se derrite en la boca, coronado con una intensa y sedosa salsa de chocolate. 
         Un postre elegante y cautivador que celebra el sabor del Perú en cada cucharada.`,
         link: "#",
+        precio: "12.50",
     },
     {
         id: "Brownie",
@@ -32,6 +35,7 @@ const productosDestacados = [
         Una experiencia sensorial intensa, casi mágica, que te eleva a una dimensión de dulzura y tentación. 
         Para quienes buscan más que un postre: una experiencia inolvidable.`,
         link: "#",
+        precio: "12.50",
     },
 ];
 
