@@ -1,3 +1,122 @@
 [
-    
+    {
+        "id": "Alfajor",
+        "img": "productos_img/alfajor.webp",
+        "titulo": "Alfajor Artesanal",
+        "descripcion": "Suave y delicado, relleno con el más cremoso manjar y cubierto con una fina capa de azúcar glas. Nuestro alfajor artesanal es el bocado perfecto que combina tradición, cariño casero y ese toque especial que derrite corazones. Ideal para consentirte o compartir un dulce momento.",
+        "link": "#",
+        "destacado": true
+    },
+    {
+        "id": "Turron",
+        "img": "productos_img/turron.webp",
+        "titulo": "Turrón de la Casa",
+        "descripcion": "Un turrón irresistible que combina lo mejor de la tradición con un toque único de sabor. Perfecto para quienes buscan un dulce que transforme cada momento en un destino lleno de placer y felicidad.",
+        "link": "#",
+        "destacado": true
+    },
+    {
+        "id": "Mousse",
+        "img": "productos_img/mousse-de-lucuma.webp",
+        "titulo": "Mousse de Lúcuma con Salsa de Chocolate",
+        "descripcion": "Cremoso Mousse de Lúcuma que se derrite en la boca, coronado con una intensa y sedosa salsa de chocolate. Un postre elegante y cautivador que celebra el sabor del Perú en cada cucharada.",
+        "link": "#",
+        "destacado": true
+    },
+    {
+        "id": "Brownie",
+        "img": "productos_img/magic.webp",
+        "titulo": "Magic Brownie",
+        "descripcion": "Un bocado de otro mundo. Textura húmeda, explosivo sabor a chocolate. Una experiencia sensorial intensa, casi mágica, que te eleva a una dimensión de dulzura y tentación. Para quienes buscan más que un postre: una experiencia inolvidable.",
+        "link": "#",
+        "destacado": true
+    },
+    {
+        "id": "TortaChocolate",
+        "img": "productos_img/torta_chocolate.webp",
+        "titulo": "Torta de Chocolate",
+        "descripcion": "Deliciosa torta de chocolate con capas esponjosas y un relleno suave de crema de cacao. Un clásico que nunca falla.",
+        "link": "#",
+        "destacado": true
+    },
+    {
+        "id": "PastelFresa",
+        "img": "productos_img/pastel_fresa.webp",
+        "titulo": "Pastel de Fresa",
+        "descripcion": "Pastel ligero y esponjoso con fresas frescas y crema batida. Dulce y refrescante como un día de primavera.",
+        "link": "#",
+        "destacado": false
+    },
+    {
+        "id": "PastelVainilla",
+        "img": "productos_img/pastel_vainilla.webp",
+        "titulo": "Pastel de Vainilla",
+        "descripcion": "Delicado bizcocho de vainilla con crema pastelera casera. Un favorito para los que aman lo clásico.",
+        "link": "#",
+        "destacado": false
+    },
+    {
+        "id": "PieManzana",
+        "img": "productos_img/pie_manzana.webp",
+        "titulo": "Pie de Manzana",
+        "descripcion": "Clásico pie con relleno de manzana especiada, canela y nueces. Crujiente por fuera, tierno por dentro.",
+        "link": "#",
+        "destacado": false
+    },
+    {
+        "id": "PastelMarmolado",
+        "img": "productos_img/marmol.webp",
+        "titulo": "Pastel Marmolado",
+        "descripcion": "Pastel marmolado con vetas de chocolate y vainilla. Perfecto para los que no quieren elegir un solo sabor.",
+        "link": "#",
+        "destacado": false
+    },
+    {
+        "id": "GalletasChocolate",
+        "img": "productos_img/galletasdechocolate.webp",
+        "titulo": "Galletas de Chocolate",
+        "descripcion": "Galletas artesanales con trozos de chocolate amargo. Crujientes por fuera, suaves por dentro. Puro amor.",
+        "link": "#",
+        "destacado": false
+    },
+    {
+        "id": "CupcakeLimon",
+        "img": "productos_img/cupcakes-de-limon.webp",
+        "titulo": "Cupcake de Limón",
+        "descripcion": "Mini pastelito con sabor a limón y cobertura de crema de queso. Fresco, ligero y con personalidad.",
+        "link": "#",
+        "destacado": false
+    },
+    {
+        "id": "Suspiro",
+        "img": "productos_img/suspiro.webp",
+        "titulo": "Suspiro a la Limeña",
+        "descripcion": "Clásico postre limeño hecho con manjar blanco y merengue. Un suspiro de dulzura que te roba el aliento.",
+        "link": "#",
+        "destacado": false
+    },
+    {
+        "id": "Suspiro",
+        "img": "productos_img/suspiro.webp",
+        "titulo": "Suspiro a la Limeña",
+        "descripcion": "Clásico postre limeño hecho con manjar blanco y merengue. Un suspiro de dulzura que te roba el aliento.",
+        "link": "#",
+        "destacado": false
+    },
+    {
+        "id": "ArrozConLeche",
+        "img": "productos_img/arrozconleche.webp",
+        "titulo": "Arroz con Leche",
+        "descripcion": "Un postre clásico peruano que combina arroz cocido con leche condensada, canela y clavo de olor. Reconfortante y lleno de sabor tradicional.",
+        "link": "#",
+        "destacado": false
+    },
+    {
+        "id": "MazamorraMorada",
+        "img": "productos_img/mazamorra_morada.webp",
+        "titulo": "Mazamorra Morada",
+        "descripcion": "Delicioso postre de color púrpura intenso preparado con maíz morado, frutas secas y especias. Un clásico de la cocina peruana.",
+        "link": "#",
+        "destacado": false
+    }
 ]

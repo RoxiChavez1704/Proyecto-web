@@ -1,0 +1,69 @@
+[
+    {
+        "titulo": "Arroz con Leche",
+        "descripcion": "Un postre clásico y reconfortante, el arroz con leche peruano combina la suavidad del arroz cocido con la dulzura de la leche condensada y el aroma de la canela y el clavo de olor.​",
+        "imagen": "productos_img/arrozconleche.webp",
+        "alt": "image de arroz con leche",
+        "ingredientes": [
+            "200 g de arroz",
+            "250 g de leche condensada",
+            "250 ml de leche evaporada",
+            "3 tazas de agua",
+            "1 rama de canela",
+            "Piel de 1 limón",
+            "2 clavos de olor",
+            "Canela en polvo para decorar"
+        ],
+        "preparacion": [
+            "Hierve el agua con canela, piel de limón y clavos de olor.",
+            "Agrega el arroz y cocina a fuego medio hasta que esté suave.",
+            "Incorpora la leche evaporada y condensada, y cocina a fuego bajo removiendo.",
+            "Cuando la mezcla esté cremosa, retira del fuego.",
+            "Deja enfriar y espolvorea con canela al gusto antes de servir."
+        ]
+    },
+    {
+        "titulo": "Mazamorra Morada",
+        "descripcion": "Este postre tradicional se elabora con maíz morado, frutas secas y especias, resultando en una deliciosa y aromática mazamorra de color púrpura intenso.",
+        "imagen": "productos_img/mazamorra_morada.webp",
+        "alt": "imagen de mazamorra morada",
+        "ingredientes": [
+            "½ kg de maíz morado",
+            "6 litros de agua",
+            "Corteza de una piña",
+            "3 ramas de canela",
+            "Azúcar al gusto",
+            "1 taza de harina de chuño",
+            "½ onza de zumo de limón",
+            "Pasas y pasas para servir",
+            "Canela en polvo para espolvorear​"
+        ],
+        "preparacion": [
+            "Hierve el maíz morado con la corteza de piña, canela y clavos en los 6 litros de agua durante aproximadamente una hora.",
+            "Cuela el líquido y vuelve a ponerlo al fuego.",
+            "Disuelve la harina de chuño en un poco de agua fría y agrégala al líquido caliente, removiendo constantemente para evitar grumos.",
+            "Añade el azúcar y el zumo de limón, y cocina hasta que la mezcla espese."
+        ]
+    },
+    {
+        "titulo": "Suspiro a la Limeña",
+        "descripcion": "Un postre elegante y dulce, el suspiro a la limeña combina un suave manjar blanco con un merengue ligero aromatizado con vino oporto.",
+        "imagen": "productos_img/suspiro.webp",
+        "alt": "imagen de un suspiro a la limeña",
+        "ingredientes": [
+            "1/2 lata de leche condensada",
+            "2 latas de leche evaporada",
+            "6 yemas de huevo",
+            "3 claras de huevo",
+            "3/4 taza de azúcar blanca",
+            "1/4 taza de vino oporto",
+            "1 cucharadita de esencia de vainilla​"
+        ],
+        "preparacion": [
+            "En una olla, cocina la leche condensada y la leche evaporada a fuego medio, removiendo constantemente hasta que la mezcla espese.",
+            "Retira del fuego y añade las yemas batidas, mezclando bien. Cocina por unos minutos más sin dejar de remover.",
+            "Para el merengue, hierve el azúcar con el vino oporto hasta obtener un almíbar. Bate las claras a punto de nieve y añade el almíbar en forma de hilo, sin dejar de batir, hasta que el merengue esté firme.",
+            "Sirve el manjar blanco en copas y cubre con el merengue. Espolvorea canela en polvo al gusto."
+        ]
+    }
+]
