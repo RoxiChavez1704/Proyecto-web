@@ -1,20 +1,24 @@
 document.addEventListener("DOMContentLoaded", () => {
     const contenedor = document.getElementById("postres_peru");
 
+    // Add a check to ensure the container exists
     if (!contenedor) {
         console.error(
             "El contenedor con id 'postres_peru' no existe en el HTML."
         );
-        return;
+        return; // Stop execution if the container is not found
     }
 
     fetch("blog.json")
         .then((response) => {
-            if (!response.ok)
-                throw new Error("No se pudo cargar el archivo JSON.");
+            if (!response.ok) {
+                throw new Error("No se pudo cargar el JSON.");
+            }
             return response.json();
         })
         .then((postres) => {
+            // Renamed 'productos' to 'postres' for clarity as per your JSON structure
+            // Iterate over each 'postre' object in the 'postres' array
             postres.forEach((postre) => {
                 const article = document.createElement("article");
                 article.classList.add("postre");
@@ -41,12 +45,13 @@ document.addEventListener("DOMContentLoaded", () => {
                         </ol>
                     </div>
                 `;
-
+                // Append the created article element to the container
                 contenedor.appendChild(article);
             });
         })
         .catch((error) => {
-            console.error("Error al cargar los postres:", error);
-            contenedor.innerHTML = `<p style="color: red;">No se pudieron cargar los postres. 😢</p>`;
+            console.error("Error al cargar los postres:", error); // Changed message to reflect 'postres'
+            contenedor.innerHTML =
+                "<p style='color: red;'>No se pudieron cargar los postres. 😢</p>"; // Added a more user-friendly error message
         });
 });
