@@ -144,6 +144,9 @@ main {
 
 /*productoDestacados*/
 #productoDestacados {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 2rem;
     background-color: #f7eedf;
 }
 
@@ -200,6 +203,53 @@ main {
 .boton_destacado:hover {
     background-color: #a0441e; /* un tono más intenso */
 }
+
+.producto_detalle_wrapper {
+    display:flex;
+    gap:5 rem;
+    padding: 3rem;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+    max-width: 1100px;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.producto_detalle_wrapper .img_destacado img{
+    width: 100%;
+    max-width: 350px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.producto_detalle_wrapper .contenido{
+    flex:1 1 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.producto_detalle_wrapper .text_destacado{
+    font-size: 2.2rem;
+    color: #b2542a;
+    margin-bottom: 1rem;
+}
+
+.producto_detalle_wrapper .txt_infodestacado{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color:#333;
+    margin-bottom: 2rem;
+}
+
+.producto_detalle_wrapper .precio{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #a0522d;
+    margin-bottom: 1.5rem;
+}
+
 #un_poco_de_nosotros {
     padding: 60px 5%;
     background-color: #f7eedf;

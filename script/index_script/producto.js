@@ -21,12 +21,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (producto) {
                 contenedor.innerHTML = `
-                    <div class="producto_detalle">
-                        <h2>${producto.titulo}</h2>
-                        <img src="${producto.img}" alt="${producto.titulo}">
-                        <p>${producto.descripcion}</p>
-                        <p class="precio">Precio: S/. ${producto.precio}</p>
-                        <a href="comprar.html?id=${producto.id}" class="boton_destacado">Finalizar Compra</a>
+                    <div class="producto_detalle_wrapper">
+                        <div class="img_destacado">
+                            <img src="${producto.img}" alt="${producto.titulo}">
+                        </div>
+                        <div class="contenido">
+                            <h2 class="text_destacado">${producto.titulo}</h2>
+                            <p class="txt_infodestacado">${producto.descripcion}</p>
+                            <p class="precio txt_infodestacado">Precio: S/. ${producto.precio}</p>
+                            <a href="comprar.html?id=${producto.id}" class="boton_destacado">Finalizar Compra</a>
                     </div>
                 `;
             } else {

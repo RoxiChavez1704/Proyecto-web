@@ -12,8 +12,9 @@
     }
 
     .producto_destacado {
-        flex-direction: column;
-        padding: 30px 10px;
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
     }
 
     .poco_nosotros {
